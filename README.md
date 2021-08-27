@@ -1,5 +1,8 @@
 # mortgage-calculator
 
+![Mortgage Calculator Splash](https://github.com/e-vana/mortgage-calculator/blob/master/splash.png)
+A simple mortgage calculator to estimate a monthly mortgage payment based on various inputs.  Check it out [Here](https://jovial-lamport-555d10.netlify.app/)
+
 ## Project setup
 ```
 npm install
