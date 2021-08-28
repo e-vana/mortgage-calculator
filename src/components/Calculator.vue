@@ -111,8 +111,10 @@ export default {
 <style>
 .calculator {
   width: 375px;
-  margin: 50px auto;
+  margin: 0px auto;
+  padding: 0px 10px;
 }
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s;
@@ -127,9 +129,8 @@ label {
   display: block;
 }
 input {
-  display: block;
   box-sizing: border-box;
-  padding: 8px;
+  padding: 8px 8px;
   margin: 0px 0px 16px 0px;
   width: 100%;
   font-size: 16px;
@@ -147,5 +148,18 @@ input::placeholder {
 }
 .estimated-payment {
   font-size: 28px;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 24px;
+    width: 100%;
+  }
+  .calculator {
+    width: 325px;
+  }
+  label {
+    font-size: 14px;
+  }
 }
 </style>

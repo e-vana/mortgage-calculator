@@ -20,6 +20,13 @@ export default {
 <style lang="scss">
 * {
   font-family: "Montserrat", sans-serif;
-  font-family: "Raleway", sans-serif;
+  // font-family: "Raleway", sans-serif;
+}
+.container {
+  margin: 50px auto;
+}
+body {
+  padding: 0px;
+  margin: 0px;
 }
 </style>
